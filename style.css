@@ -1,0 +1,56 @@
+
+
+ html, body {
+     margin: 0;padding: 0;
+ }
+
+
+/*text de navigation*/
+
+ h1{
+    margin: 0;padding: 0;
+    font-size: 30px ;
+    font-weight: 700;
+    margin: auto;
+    font-family:'Andale Mono, monospace';
+    color: white;
+
+ }
+
+
+/*IMAGE DE FOND*/
+
+section.top-page{
+    background-size: cover;  
+    background-image: url(img/top-peripherique-gamer.jpg);
+    height: 90vh;
+}
+
+/*MENU DE NAVIGATION*/
+
+nav.nav {
+    color: white;
+    list-style: none;
+    display: flex;
+    width: 900px;
+}
+
+header.header,nav.nav{
+    display: flex;
+    align-items: center;
+}
+
+li,a{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/*Périphérique*/
+
+.pgamer{
+    text-align: center;
+    font-family: Noto Sans;
+    margin: 100px;
+}
